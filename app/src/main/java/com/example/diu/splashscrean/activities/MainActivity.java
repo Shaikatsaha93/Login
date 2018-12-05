@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
                 if (res == true){
                     Intent go_to_home = new Intent(MainActivity.this,Home.class);
+                    startActivity(go_to_home);
                    // Toast.makeText(MainActivity.this,"Successfully Logged In",Toast.LENGTH_SHORT).show();
                 }
                 else {
